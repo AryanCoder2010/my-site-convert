@@ -1,0 +1,51 @@
+body {
+       height: 100%;
+       padding: 0;
+       background-color: rgba(31, 235, 235, 0.774);
+}
+h1 {
+       color: rgb(192, 29, 29);
+       text-align: center;
+       font-size: 2cm;
+}
+#station{
+       color: gold;
+       background-color: black;
+       padding:  0.6cm 0.6cm 0.6cm 0.6cm;
+       padding-top: 0.3cm;
+       padding-bottom: 0.3cm;
+       padding-left: 4.5cm;
+       padding-right: 4.2cm;
+       border-radius:  0.3cm 0.3cm 0.3cm 0.3cm;
+       text-decoration: none;
+}
+#statio{
+       color: gold;
+       background-color: black;
+       padding:  0.7cm 0.7cm 0.7cm 0.7cm;
+       padding-top: 0.3cm;
+       padding-bottom: 0.3cm;
+       padding-left: 5cm;
+       padding-right: 5.3cm;
+       border-radius:  0.5cm 0.5cm 0.5cm 0.5cm;
+       text-decoration: none;
+}
+.dd{
+       padding: 0.4cm;
+       background-color: darkblue;
+}
+.black{
+       color: white;
+       background-color: black;
+       min-height: 100%;
+       position: relative;
+       text-align: center;
+}
+.footerpage{
+       padding-bottom: 410px;
+}
+.c{
+       font-size: 32px;
+}
+
+

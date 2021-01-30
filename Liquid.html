@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <title>Conver Anything!</title>
+              <link rel="stylesheet" href="coverter.css">
+              <script type="text/javascript">
+                     function convertl(){
+                     var comp=document.getElementById("e").value;       
+                     document.getElementById("xb").value = comp*1000;
+                     }
+                     </script>
+                     <script type="text/javascript">
+                            function convertml(){
+                            var comp=document.getElementById("f").value;       
+                            document.getElementById("xc").value = comp/1000;
+                            }
+                            </script>
+       </head>
+       <body>
+              <div class="dd">
+              <a id="station" href="Index.html">Home </a>                           
+              <a id="station" href="Weight.html">Convert Weight </a>
+              <a id="station" href="length.html">Conver Length </a>
+              </div> 
+              <h1>Welcome to the converter app!</h1>              
+              <div class="c">
+                     Note: You don't need to write the unit after your inserted magnitude.
+              <form>
+                     <label for="c">Input number:</label>
+                     <input type="number" class="Userinput2" id="e" min="1"placeholder="L">L(Liters)
+                     <input type="button" value="Find the answer?" onclick="convertl()">
+                     <input type="text" class="Userinput2" id="xb" placeholder="Result">Ml(Milliliters)
+              </form>
+              <form>
+                     <label for="d">Input number:</label>
+                     <input type="number" class="Userinput" id="f" min="1"placeholder="Ml">Ml(Milliliters)
+                     <input type="button" value="Find the answer?" onclick="convertml()">
+                     <input type="text" class="Userinput2" id="xc" placeholder="Result">L(Liters)
+              </form>
+              </div>
+       </body>
+</html>
