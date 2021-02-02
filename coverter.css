@@ -4,7 +4,7 @@ body {
        background-color: rgba(31, 235, 235, 0.774);
 }
 h1 {
-       color: rgb(192, 29, 29);
+       color: #f77722/*rgb(192, 29, 29)*/;
        text-align: center;
        font-size: 2cm;
 }
