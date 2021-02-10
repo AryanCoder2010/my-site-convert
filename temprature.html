@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <title>Conver Anything!</title>
+              <link rel="stylesheet" href="coverter.css">
+              <script type="text/javascript">
+                     function converterc(){
+                     var comp=document.getElementById("e").value;       
+                     document.getElementById("xb").value = comp * 9/5+32;
+                     }
+                     </script>
+                     <script type="text/javascript">
+                            function convertf(){
+                            var comp=document.getElementById("f").value;       
+                            document.getElementById("xc").value =  (comp-32)*5/9 
+                            }
+                            </script>
+       </head>
+       <body>
+              <div class="dd">
+              <a id="station" href="Index.html" style="padding-right: 4.6cm;padding-left: 4.8cm;">Home </a>                           
+              <a id="station" href="Weight.html" style="padding-right: 4.6cm;padding-left: 4.8cm;">Convert Weight </a>
+              <a id="station" href="length.html" style="padding-right: 4.6cm;padding-left: 4.8cm;">Conver Length </a>
+              </div> 
+              <h1>Welcome to the converter app!</h1>              
+              <div class="c">
+                     Note: You don't need to write the unit after your inserted magnitude.
+              <form>
+                     <label for="c">Input number:</label>
+                     <input type="number" class="Userinput2" id="e" min="1"placeholder="C°">C°(Celcius)
+                     <input type="button" value="Find the answer?" onclick="converterc()">
+                     <input type="text" class="Userinput2" id="xb" placeholder="Result">F°(Fahrenheit)
+                     <input type="reset" class="Userinput2" id="rereset" value="reset it!">
+              </form>
+              <form>
+                     <label for="d">Input number:</label>
+                     <input type="number" class="Userinput" id="f" min="1"placeholder="F°">F°(Fahrenheit)
+                     <input type="button" value="Find the answer?" onclick="convertf()">
+                     <input type="text" class="Userinput2" id="xc" placeholder="Result">C°(Celcius)
+                     <input type="reset" class="Userinput2" id="rereset" value="reset it!">
+              </form>
+              </div>
+       </body>
+</html>
+
