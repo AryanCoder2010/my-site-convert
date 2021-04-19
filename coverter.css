@@ -75,3 +75,18 @@ a.active,a:hover{
 
        
 }
+@media screen and (max-width: 375px){
+       #station{
+              padding-left: 3.9px;
+              padding-right: 5.7px;
+       }
+       .fas fa-envelope-square fa-4x.active,a:hover{
+              padding-left: 3.9px;
+              padding-right: 5.7px;
+       }
+       .fab fa-skype fa-4x.active,a:hover{
+              padding-left: 3.9px;
+              padding-right: 5.7px;
+
+       }
+}
