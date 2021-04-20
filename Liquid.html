@@ -18,42 +18,48 @@
                             </script>
        </head>
        <body>
-              <div class="dd">
-              <a id="station" href="index.html" style="padding-right: 3cm;padding-left: 3cm;">Home </a>                           
-              <a id="station" href="Weight.html" style="padding-right: 3cm;padding-left: 3cm;">Convert Weight </a>
-              <a id="station" href="length.html" style="padding-right: 3cm;padding-left: 3cm;">Conver Length </a>
-              <a id="station" href="temprature.html" style="padding-right: 3cm;padding-left: 3cm;">Convert Temperature</a>       
-              </div> 
-              <h1>Welcome to the converter app!</h1>              
-              <div class="c">
-                     Note: You don't need to write the unit after your inserted magnitude.
-              <form>
-                     <label for="c">Input number:</label>
-                     <input type="number" class="Userinput2" id="e" min="1"placeholder="L" autofocus>L(Liters)
-                     <input type="button" value="Find the answer?" onclick="convertl()">
-                     <input type="text" class="Userinput2" id="xb" placeholder="Result">Ml(Milliliters)
-                     <input type="reset" class="Userinput2" id="rereset" value="reset it!">
-              </form>
-                     <div id="space">
-                     </div>
-              <form>
-                     <label for="d">Input number:</label>
-                     <input type="number" class="Userinput" id="f" min="1"placeholder="Ml" autofocus>Ml(Milliliters)
-                     <input type="button" value="Find the answer?" onclick="convertml()">
-                     <input type="text" class="Userinput2" id="xc" placeholder="Result">L(Liters)
-                     <input type="reset" class="Userinput2" id="rereset" value="reset it!">
-              </form>
-                
-                    
-              </div>
-              </nav>
-              <footer class="black">
-              Contact me :
-              <a href="mailto:Aryan.ayushman.sahoo@outlook.com">
+             <nav class="footerpage">
+       <ul class="dd">
+              <li> <a id="station" href="index.html">Home </a></li>
+              <li> <a id="station" href="Weight.html">Convert Weight </a></li>
+              <li> <a id="station" href="Liquid.html">Convert Liquid </a></li>
+              <li> <a id="station" href="temprature.html">Convert Temp</a></li> 
+              
+       </ul> 
+<h1>Welcome to the converter app!</h1>
+<div class="c">
+ <p>
+        Note: You don't need to write the unit after your inserted magnitude.
+ </p>      
+<form>
+       <label for="c">Input number:</label>
+       <input type="number" class="Userinput2" id="e" min="1"placeholder="M">
+        M(Meters)
+       <input type="button" value="Find the answer?" onclick="convertm();">
+       <input type="text" class="Userinput2" id="x" placeholder="Result">
+       Cm(Centimeters)
+</form>
+<div id="space">
+</div>
+<form>
+       <label for="d">Input number:</label>
+       <input type="number"class="Userinput2" id="f" min="1"placeholder="Cm">
+       Cm(Centimeters
+       <input type="button" class="Userinput2"value="Find the answer?" onclick="convertmm()" >
+       <input  type="text" class="Userinput2" id="xa" placeholder="Result">
+       M (Meters)
+</form>
+</form>
+</div>
+</nav>
+<footer class="black">
+       Contact me :
+       <a href="mailto:Aryan.ayushman.sahoo@outlook.com">
               <i class="fas fa-envelope-square fa-4x"></i>
-              <a href=skype:live:.cid.dd6706b929c05e69?chat>
-              <i class="fab fa-skype fa-4x"></i>
-              </a>
+       <a href=skype:live:.cid.dd6706b929c05e69?chat>
+            <i class="fab fa-skype fa-4x"></i>
+       </a>
 </footer>
+       </body>
        </body>
 </html>
