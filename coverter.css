@@ -90,13 +90,13 @@ a.active,a:hover{
 
        }
        .c{
-       font-size: 13px;
+              font-size: 13px;
        }
        #space{
-       padding-top: 8px;
-       padding-bottom: 8px;
+              padding-top: 8px;
+              padding-bottom: 8px;
        }
        .footerpage{
-       padding-bottom: 620px;
+              padding-bottom: 620px;
        }
 }
