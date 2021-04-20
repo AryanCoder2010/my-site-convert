@@ -89,4 +89,14 @@ a.active,a:hover{
               padding-right: 5.7px;
 
        }
+       .c{
+       font-size: 13px;
+       }
+       #space{
+       padding-top: 8px;
+       padding-bottom: 8px;
+       }
+       .footerpage{
+       padding-bottom: 620px;
+       }
 }
