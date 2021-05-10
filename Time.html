@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <title>Convert time!</title>
+              <link rel="shortcut icon" 
+type="image/png" href="icon.png" >
+              <link rel="stylesheet" href="converter.css">
+              <meta name="viewport" 
+content="width=device-width,
+initial-scale=1.0">
+<script src="https://kit.
+fontawesome.com/b8ac024939.js" 
+crossorigin="anonymous"></script>
+              <script type="text/javascript">
+                     function convertsec(){
+                     var domp=document.getElementById("nb").value;       
+                     document.getElementById("xxx").value = domp*60;
+                     }
+                     </script>
+                     <script type="text/javascript">
+                            function convertmin(){
+                            var comp=document.getElementById("fg").value;      
+                            document.getElementById("xdxd").value = comp/60;
+                            }
+                            </script>
+       </head>
+       <body>
+              <nav class="footerpage">
+                     <ul class="dd">
+                     <a id="station" href="index.html" >Home</a>       
+                     <a id="station" href="length.html">Convert Length </a>
+                     <a id="station" href="Liquid.html" >Convert Liquid </a>
+                     <a id="station" href="Weight.html" >Convert Weight </a>
+                     <a id="station" href="temprature.html">Convert Temperature</a>       
+                     </ul>
+       
+                     <h1>Welcome to the converter app!</h1>
+                     <div class="c">
+                            <p>
+                                   Note: You don't need to write the unit 
+       after your inserted magnitude.
+                            </p>
+                     <form>
+                            <label for="c">Input number:</label>
+                            <input type="number" class="Userinput2"id="nb"min="1"placeholder="min"autofocus>min(minutes)
+                            <input type="button" value="Find the answer?" onclick="convertsec()">
+                            <input type="text" class="Userinput2" id="xxx" placeholder="Result">Sec(Seconds)
+                            <input type="reset" class="Userinput2" id="rereset" value="reset it!">
+                     </form>
+                            <div id="space">
+                            </div>
+                     <form>
+                            <label for="d">Input number:</label>
+                            <input type="number" class="Userinput2" id="fg"min="1"placeholder="Sec" autofocus>Sec(Seconds)
+                            <input type="button" value="Find the answer?" onclick="convertmin()">
+                            <input type="text" class="Userinput2" id="xdxd" placeholder="Result">min(minutes)
+                            <input type="reset" class="Userinput2" id="rereset" value="reset it!">
+                     </form>
+                            
+                         
+                     </div>
+                     </nav>
+                     <footer class="black">
+                            Contact me :
+                            <a href="mailto:Aryan.ayushman.
+                            sahoo@outlook.com">
+                            <i class="fas fa-envelope-square 
+                            fa-4x"></i>
+                            <a href=skype:live:.cid.
+                            dd6706b929c05e69?chat>
+                            <i class="fab fa-skype fa-4x"></i>
+                            </a>
+              </a>
+       </footer>
+       </body>
+</html>
