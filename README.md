@@ -7,18 +7,8 @@ This is a repository that displays canvas art in HTML an JavaScript
 
 
  ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>This is a title</title>
-  </head>
-  <body>
-<div>
   <div id="work"> 
     <iframe src="/art/your_Directory/html_file" height="200px" width="300px" title="your arts name"></iframe>
   </div>
- </div>
-  </body>
-</html>
 ```
 *Then you can Pull Request, if you don't know how to Pull then you can refer to this [file](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) 
